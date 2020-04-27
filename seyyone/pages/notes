@@ -1,0 +1,25 @@
+date picker
+
+
+				        <div class="row">
+        <div class='col-sm-2'>
+            <div class="form-group">
+                <div class='input-group date' id='datetimepicker2'>
+                    <input type='text' class="form-control" />
+                    <span class="input-group-addon">
+                        <span class="glyphicon glyphicon-calendar"></span>
+                    </span>
+                </div>
+            </div>
+
+        </div>
+	<script src="../js/moment.js"></script>
+	<script src="../js/bootstrap-datetimepicker.min.js"></script>
+	    <script type="text/javascript">
+        $(function () {
+            $('#datetimepicker2').datetimepicker({
+                format: 'DD/MM/YYYY',
+                
+            });
+        });
+        </script>
